@@ -1,0 +1,6 @@
+.env
+data/raw/*.csv
+tests/smoke_data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

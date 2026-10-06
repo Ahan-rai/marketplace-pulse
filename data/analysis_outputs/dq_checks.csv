@@ -1,0 +1,31 @@
+check_name,severity,failing_rows,total_rows
+duplicate_order_ids,error,0,99441
+orders_missing_purchase_ts,error,0,99441
+delivered_status_without_delivery_ts,warn,8,96478
+delivery_ts_but_status_not_delivered,warn,6,96476
+delivered_before_purchase,error,0,96476
+carrier_handoff_before_approval,warn,1359,97658
+items_orphan_orders,error,0,112650
+orders_without_items,warn,775,99441
+items_orphan_sellers,error,0,112650
+items_orphan_products,warn,0,112650
+payments_orphan_orders,error,0,103886
+payments_zero_or_negative_value,warn,9,103886
+review_rows_dropped_by_dedupe,info,551,99224
+review_score_out_of_range,error,0,98673
+products_missing_category,warn,610,32951
+product_categories_without_translation,warn,"0        False
+1        False
+2        False
+3        False
+4        False
+         ...
+32946    False
+32947    False
+32948    False
+32949    False
+32950    False
+Name: product_category_name, Length: 32951, dtype: bool",32341
+customers_without_geo,warn,278,99441
+sellers_without_geo,warn,7,3095
+multi_seller_orders_excluded_from_seller_metrics,info,1278,98666

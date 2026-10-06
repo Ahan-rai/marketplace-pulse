@@ -1,0 +1,17 @@
+type,period,metric,value,rule
+monthly_late_rate,2016-09,late_rate_pct,100.0,robust_z >= 3
+monthly_late_rate,2017-11,late_rate_pct,12.403951701427005,robust_z >= 3
+monthly_late_rate,2018-02,late_rate_pct,14.126620900076276,robust_z >= 3
+monthly_late_rate,2018-03,late_rate_pct,18.963301442239043,robust_z >= 3
+lane_late_rate,SP->AL,late_rate_pct,23.92156862745098,robust_z >= 3
+lane_late_rate,MA->SP,late_rate_pct,20.32520325203252,robust_z >= 3
+seller_high_risk,all,defect_rate_pct,61.32075471698113,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,50.810810810810814,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,34.64912280701755,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,32.55813953488372,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,28.640776699029125,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,28.14814814814815,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,27.62201453790239,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,27.522935779816518,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,27.4247491638796,HIGH defect risk + >=100 closed orders
+seller_high_risk,all,defect_rate_pct,25.42372881355932,HIGH defect risk + >=100 closed orders
